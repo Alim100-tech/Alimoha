@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Practise position </title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #24252a;
+    }
+    body{
+    }
+    .header{
+    height: 55px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 300px;
+    background-color: #24252a;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    }
+    .header:hover{
+      background-color: #24252a;
+      color: rgb(22, 205, 230);
+    }
+   
+    
+      button{
+      height: 38px;
+      width: 140px;
+      background-color: rgb(230, 226, 10);
+      color: #000;
+      font-size: 20px;
+      left: 10;
+      top: 10px;
+      border: none;
+      border-radius: 50px;
+      margin-left: 10px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+     button:hover{
+      background-color: rgb(7, 178, 235);
+      color: black;
+     }
+    .navbar{
+      margin:0 auto;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .navbar , ul {
+     padding: 10px 20px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     margin-right: 20px 30px;
+    }
+    
+    .navbar , ul , li a{
+     list-style: none;
+     text-decoration: none;
+     padding: 10px 20px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     margin-left: 100px 10px ;
+     font-size: 22px;
+     color: #fff;
+    
+    }
+   
+    .section{
+    height: calc(100vh - 60px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 300px;
+    bottom: 300px;
+    }
+    h1{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="header"><img  src="download G-logo.png" width="45"  alt="logo"> AliMoha
+  <ul class="navbar">
+    <li><a href="#">Home</a></li>
+     <li> <a  href="#">Contact</a></li></ul>
+    <a href="#" > <button>Get Started</button></a>
+  </div>
+  
+</div>
+<h1>Welcome</h1>
+<section class="section">
+  <h1>Welcome</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</section>
+
+</body>
+</html>
